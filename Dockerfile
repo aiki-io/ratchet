@@ -5,7 +5,9 @@ LABEL maintainer="lech@aiki.io"
 COPY requirements.txt /tmp/
 
 RUN apt-get update \
+&&  apt-get upgrade \
 &&  apt-get install -y sudo \
+&&  apt-get install -y g++ \
 &&  adduser --gecos "" bender \
 &&  passwd -d bender \
 &&  usermod -aG sudo bender \
