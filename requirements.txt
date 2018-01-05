@@ -19,11 +19,11 @@ jedi==0.11.1
 Jinja2==2.10
 jsonschema==2.6.0
 jupyter==1.0.0
-jupyter-client==5.2.0
+jupyter-client==5.2.1
 jupyter-console==5.2.0
 jupyter-core==4.4.0
 Keras==2.1.2
-Markdown==2.6.10
+Markdown==2.6.11
 MarkupSafe==1.0
 matplotlib==2.1.1
 mistune==0.8.3
@@ -38,7 +38,7 @@ parso==0.1.1
 patsy==0.4.1
 pexpect==4.3.1
 pickleshare==0.7.4
-Pillow==4.3.0
+Pillow==5.0.0
 pluggy==0.6.0
 prompt-toolkit==1.0.15
 protobuf==3.5.1
@@ -46,7 +46,7 @@ ptyprocess==0.5.2
 py==1.5.2
 Pygments==2.2.0
 pyparsing==2.2.0
-pytest==3.3.1
+pytest==3.3.2
 python-dateutil==2.6.1
 pytz==2017.3
 PyYAML==3.12
